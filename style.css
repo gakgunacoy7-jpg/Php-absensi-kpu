@@ -1,0 +1,181 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px white;
+}
+td {
+   padding: 12px;
+   text-align: center;
+   border: 1px  solid white;
+   border-bottom: none;
+   border-right: none;
+   border-left: none;
+}
+th {
+    background-color: #5E1914;
+    color: white;
+     padding: 12px;
+    text-align: left;
+}
+tr{
+    background-color: transparent;
+    
+}
+.nama{
+    text-align: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+input {
+    padding: 8px;
+    font-size: 15px;
+}
+.radio-group{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.h2 {
+    color: white;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.nav-underline .nav-link {
+    color: grey;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url('/absen_karyawan/asset/gb.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.konten {
+    position: relative;
+    z-index: 2;
+    color: white;
+    min-height: 65vh;
+    flex: 1;
+}
+
+.konten2 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 50px;
+    flex: 1;
+}
+
+.navbar  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.login-container {
+    width: 400px;
+    margin:100px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.tabel {
+    width: 100%;
+    color: black;
+}
+.td {
+    padding:8px;
+}
+.body {
+    font-family: "Inter", sans-serif;
+    background: url('/absen_karyawan/asset/gb.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.konten3 {
+    position: relative;
+    color: grey;
+    padding: 50px;
+    flex: 1;
+}
+.input1 {
+    width: 95%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.komentar{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: grey;
+}
+.konten4 {
+    width: 700px;
+    margin:10px auto;
+    position: justify center;
+    z-index: 2;
+    color: white;
+    padding: 120px;
+    flex: 1;
+}
+.konten5 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 50px;
+    flex: 1;
+}
+
+.judul{
+    position: center;
+    size: 30px;
+    color: white ;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    position: center;
+}
+.konten6 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 50px;
+    flex: 1;
+}
+
+.in {
+    color: white; 
+    font-size: 15px;
+    text-align: end;
+}
+.gambar{
+    position: relative;
+}
